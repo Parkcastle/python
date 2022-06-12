@@ -3,6 +3,7 @@ b = a
 print(id(a))
 print(id(b)) ## id는 메모리 주소
 
+print(a is b) ## 같은 주소면 true 출력
 
 b = a[:] ## 새로운 값을 b에게 넣는것이기 때문에 다른주소를 가진다
 a[1] = 4
